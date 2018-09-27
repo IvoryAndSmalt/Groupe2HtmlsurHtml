@@ -27,20 +27,23 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
 {
     display:inline-block;
     width: 15%;
-    background-color:#413C3C; 
+    background-color:#D31F44; 
 }
 
 .sujet
 {
     display:inline-block;
-    width: 70%;
+    width: 85%;
     min-height: 800px;
     background-image: url("background.jpg");
     background-size: cover;
-    padding-top: 2%;
+    padding-top: 10%;
     padding-left: 5%;
     padding-bottom: 2%;
     padding-right: 10%;
+}
+.sujet h2{
+    padding-bottom: 3%;
 }
 
 .droite
@@ -53,7 +56,7 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
 
 ul li a{
     color: white;
-    background: #413C3C;
+    background: #D31F44;
     display: block;
     height: 58px;
     font-family: 'Julius Sans One', sans-serif;
@@ -102,3 +105,53 @@ ul li ul{
     width: 100%;
 }
 
+header h1{
+    display: flex;
+    background: black;
+    height: 130px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+}
+
+
+  
+
+.footer{
+    font-family:'Julius Sans One', sans-serif;
+    font-weight: bold;
+    display:flex;
+    background-color: black;
+    height: 130px;
+    background-position: bottom;
+    align-items: center;
+    text-transform: uppercase;
+    text
+}
+
+.donnees  {
+   display:block;
+   width:60%; 
+   color:whitesmoke;
+   text-align: left;
+   margin-left: 5%;
+   align-items: top; 
+}
+
+.logo {
+   display:block;
+   position:absolute;
+   right: 20%;
+}
+
+
+  footer img {
+      display: block;
+      position: relative;
+      left: 80%;
+      top: 50% ;
+      align-items: center;
+     
+       
+  }
