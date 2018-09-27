@@ -1,54 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
-
 *{
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body
-{
-font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
-font-size:1.2em;
-}
-
-h1 h2 
-{
-font-family: 'Julius Sans One', sans-serif; /* police titre */
-}
-
-
-#style_page
-{
-    display:flex;
-    margin:auto;
-}
-.gauche
-{
-    display:inline-block;
-    width: 15%;
-    background-color:#413C3C; 
-}
-
-.sujet
-{
-    display:inline-block;
-    width: 70%;
-    min-height: 800px;
-    background-image: url("background.jpg");
-    background-size: cover;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-bottom: 2%;
-    padding-right: 10%;
-}
-
-.droite
-{
-    display:inline-block;
-    width: 15%;
-    color:black;
-    background-color:#F1F2F2;
 }
 
 ul li a{
