@@ -1,17 +1,41 @@
-    
 
-    footer{
-        width: 100%;
-        background-color: rgba(102, 120, 145, 0.418);
-       
-    }
+  
+
+ .footer{
+      display:flex;
+      background-color: black;
+      height: 130px;
+      background-position: bottom;
+      
+
+ }
+
+ .donnees  {
+     display:block;
+     width:60%; 
+     color:whitesmoke;
+     text-align: center;
+     align-items: center;
+     
+         
+     
+ }
+
+ .logo {
+     display:block;
+     position:absolute;
+     right: 20%;
+     
+
+ }
 
 
-    .logo {
+    footer img {
         display: block;
         position: relative;
-        left: 40%;
+        left: 80%;
+        top: 50% ;
+        align-items: center;
        
          
-    
     }
