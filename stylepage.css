@@ -46,15 +46,7 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
     padding-bottom: 3%;
 }
 
-.droite
-{
-    display:inline-block;
-    width: 15%;
-    color:black;
-    background-color:#F1F2F2;
-}
-
-ul li a{
+    ul li a{
     color: white;
     background: #D31F44;
     display: block;
@@ -66,6 +58,10 @@ ul li a{
     justify-content: center;
     text-decoration: none;
     transition: background 0.25s;
+}
+
+header > ul {
+    background: #D31F44;
 }
 
 ul li a:hover{
@@ -83,13 +79,17 @@ ul li{
     position: relative;
 }
 
+ul > li {
+    margin-right: 5%;
+}
+
 ul li:hover ul li{
     display:block;
     color: white;
-    background: grey; 
     top: 0px;
     transition: background 0.3s;
 }
+
 ul li ul li{
     display: none;
 }
@@ -101,7 +101,7 @@ ul li ul li a{
 ul li ul{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: absolute ;
     width: 100%;
 }
 
@@ -115,9 +115,6 @@ header h1{
     font-size: 250%;
 }
 
-
-  
-
 .footer{
     font-family:'Julius Sans One', sans-serif;
     font-weight: bold;
@@ -127,7 +124,6 @@ header h1{
     background-position: bottom;
     align-items: center;
     text-transform: uppercase;
-    text
 }
 
 .donnees  {
@@ -146,12 +142,10 @@ header h1{
 }
 
 
-  footer img {
+footer img {
       display: block;
       position: relative;
       left: 80%;
-      top: 50% ;
+      top: 50%;
       align-items: center;
-     
-       
   }
