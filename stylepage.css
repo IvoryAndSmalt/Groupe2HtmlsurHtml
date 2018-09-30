@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* ORIGIN AND BACKGROUND ACCUEIL */
+
 body
 {
 font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
@@ -43,9 +45,8 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
     padding-right: 10%;
 }
 
-/* .sujet h2{
-    padding-bottom: 3%;
-} */
+
+/* HEADER */
 
     ul li a{
     color: white;
@@ -116,6 +117,8 @@ header h1{
     font-size: 250%;
 }
 
+/* FOOTER */
+
 .footer{
     font-family:'Julius Sans One', sans-serif;
     font-weight: bold;
@@ -151,7 +154,9 @@ footer img {
       align-items: center;
   }
 
-.titres{
+/* PAGE TYPE */
+
+  .titres{
     display: flex;
 }
 
@@ -212,3 +217,82 @@ h2{
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;  margin: 2px;
 }
+
+/* CONTACT FORM */
+
+.contactformbody
+{
+    display: block;
+    min-height: 800px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.contacttitle {
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+.contacttitle h3{
+    padding-top: 1%;
+}
+
+.submit{
+    display: block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 1.1em;
+    color: white;
+    background:  #D31F44;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form > form{
+    margin-top: 3%;
+}
+.control-form{
+    font-family: 'Libre Baskerville', sans-serif;
+    text-transform: lowercase;
+    max-width: 450px        ;
+    min-width: 180px;
+    width: 60%;
+    background-color:darkgrey;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    page-break-after: always;
+}
+
+.contact-form textarea{
+    font-family: 'Libre Baskerville', sans-serif;
+}
+/* .submit{
+    page-break-before: always;
+    text-transform: uppercase;
+    background: rgba(62, 127, 231, 0.97);
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    max-width: 300px;
+    min-width: 180px;
+    width: 35%;
+    margin-left: 25%;
+    margin-right: 25%;
+    /*display: flex;
+    justify-content: center;*/
