@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="stylepage.css">
 </head>
 
-<?php echo  "mon texte"?>
+<!-- <?php echo  "mon texte"?> -->
 
 <body>
     <header>
