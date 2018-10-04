@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
         des balises les plus courantes">
+    <meta property="og:title" content="Initiation au html">
+    <meta property="og:description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
+        des balises les plus courantes">
+    <meta property="og:image" content="imageog.png">
+    <meta property="og:url" content="http://localhost/Html%20sur%20Html/projet_groupe2.php">
+
     <link rel="stylesheet" href="stylepage.css">
     
 </head>
