@@ -1,5 +1,5 @@
-   
-<?php include ('header.php') ; ?>
+
+<?php include 'header.php';?>
 
     <div id="style_page">
 
@@ -19,4 +19,4 @@
         </div>
     </div>
 
-    <?php include ('footer.php') ; ?>
+    <?php include 'footer.php';?>

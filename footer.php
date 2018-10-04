@@ -7,7 +7,7 @@
                 <div class="text1">
                     <p> Promo Access Code School de Belfort 2018</p>
                 </div>
-<br>
+                <br>
                 <div class="text2">
                     <p> Groupe html 2 : Alexandra Moullet, Laura Vangrevenynghe et Lucas Van Den Berg</p>
                 </div>
