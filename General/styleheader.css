@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul li a{
+    color: white;
+    background: #413C3C;
+    display: block;
+    height: 58px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.25s;
+}
+
+ul li a:hover{
+    background: darkgrey;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+}
+
+ul li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+ul li:hover ul li{
+    display:block;
+    color: white;
+    background: grey; 
+    top: 0px;
+    transition: background 0.3s;
+}
+ul li ul li{
+    display: none;
+}
+
+ul li ul li a{
+    height: 46px;
+}
+
+ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+

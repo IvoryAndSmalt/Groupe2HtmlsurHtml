@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+
+
+body
+{
+font-family:'Libre Baskerville', sans-serif; /* police du corps de texte*/
+font-size:1.2em;
+}
+
+h1 h2 h3
+{
+font-family: 'Julius Sans One', sans-serif; /*titre Iniatiation au html*/
+}
