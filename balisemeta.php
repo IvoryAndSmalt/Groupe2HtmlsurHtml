@@ -13,7 +13,7 @@
                 <h2>Balises Particulières : <span>balise &#8249;meta&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;meta&#8250;</p>
+                <p>&#8249;meta&#8250;</p>
                 <p>"meta" vient de metadata (métadonnées en français)</p>
                 <p>Il s'agit d'une balise particulière, pas tout à fait un block ou inline.</p>
                 <p>C'est une balise orpheline, donc sans balise sortante.</p>

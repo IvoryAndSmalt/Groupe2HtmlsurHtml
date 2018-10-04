@@ -10,7 +10,7 @@
 
         <div class="contenu">
             <div class="titres">
-                <h2>Balises Particulières : <span>balise &#8249;video&#8250;</span></h2>
+                <h2>Balises Block : <span>balise &#8249;video&#8250;</span></h2>
             </div>
             <div class="def">
                 <p>nom de la balise &#8249;video&#8250;</p>

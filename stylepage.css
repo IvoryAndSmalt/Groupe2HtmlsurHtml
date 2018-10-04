@@ -49,42 +49,40 @@ table {
 	border-spacing: 0;
 }
 
-<<<<<<< HEAD
 /* FIN DU RESET */ 
 /* !!!!!!!!!!!!!!!!!!toujours faire reset avant de commencer!!!!!!!!!!!!! */
-=======
->>>>>>> origin/master
-/* ORIGIN AND BACKGROUND ACCUEIL */
 
-body
-{
-font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
-font-size:1.2em;
+
+
+/***********************************
+****************ACCUEIL ************
+************************************/
+
+body{
+    font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
+    font-size:1.2em;
 }
 
-h1 h2 
-{
-font-family: 'Julius Sans One', sans-serif; /* police titre */
+h1 h2 {
+    font-family: 'Julius Sans One', sans-serif; /* police titre */
 }
 
 
-#style_page
-{
+#style_page{
     display:flex;
     margin:auto;
 }
-.gauche
-{
+.gauche {
+    min-width: 30px;
     display:inline-block;
     width: 15%;
     background-color:rgb(202, 20, 68); 
 }
 
-.sujet
-{
+.sujet {
     display:inline-block;
     width: 85%;
-    min-height: 800px;
+    min-height: 600px;
     background-image: url("background.jpg");
     background-size: cover;
     padding-top: 10%;
@@ -98,7 +96,7 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
 ******************** HEADER ********************
 ************************************************/
 
-    ul li a{
+ul li a{
     color: white;
     background: rgb(202, 20, 68);
     display: block;
@@ -132,9 +130,14 @@ ul li{
     position: relative;
 }
 
-ul > li {
-    margin-right: 5%;
+.navgen > li:first-child{
+    min-width: 80px;
+    width: 58.5%;
 }
+
+/* ul > li {
+    margin-right: 5%;
+} */
 
 ul li:hover ul li{
     display:block;
@@ -166,6 +169,7 @@ header h1{
     align-items: center;
     justify-content: center;
     font-size: 250%;
+    text-transform: uppercase;
 }
 
 /**************************************
@@ -174,7 +178,6 @@ header h1{
 
 
 footer{
-    
     display:flex;
     height: 134px;
     background-color: black;
@@ -215,13 +218,6 @@ footer{
    align-items: center;
 }
 
-
-
-
-
-
-
-
 /***********************************
 ************ PAGE TYPE *************
 ************************************/
@@ -231,10 +227,11 @@ footer{
 }
 
 span{
-    font-size: 1em;
+    font-weight: bold;
 }
 
-h2{
+.titres h2{
+    font-size: 1.6em;
     display: block;
     padding: 0px;
     margin: 0px;
@@ -254,7 +251,23 @@ h2{
 }
 
 .def{
-    padding-top: 10%;
+    padding-top: 6%;
+}
+
+.def p:first-child{
+    font-family: Courier;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+}
+
+.def p:nth-child(5){
+    padding-bottom: 2%;
+}
+
+.def p{
+    line-height: 1.4;
 }
 
 #txtavimg{
@@ -272,6 +285,7 @@ h2{
 
 .boutonsuivant{
     text-align: center;
+    margin-top: 5%;
 }
 
 .boutonsuivant input{

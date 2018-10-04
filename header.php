@@ -15,10 +15,10 @@
 
 <body>
 
-<header>
+    <header>
         <h1>Initiation au html</h1>
 
-        <ul>
+        <ul class="navgen">
             <li><a href="accueil.php">Accueil </a></li>
             <li><a>Balises Block</a>
                 <ul>
