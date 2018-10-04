@@ -1,5 +1,5 @@
 <?php include 'introheader.php';?>
-<title>Page type</title>
+<title>Introduction au html : balise meta</title>
 <?php include 'header.php';?>
 
     <div id="style_page">

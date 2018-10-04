@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
-    <title>Initiation au html</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
