@@ -1,5 +1,6 @@
-   
-<?php include ('header.php') ; ?>
+<?php include 'introheader.php';?>
+<title>Introduction au html : balise meta</title>
+<?php include 'header.php';?>
 
     <div id="style_page">
 
@@ -19,4 +20,4 @@
         </div>
     </div>
 
-    <?php include ('footer.php') ; ?>
+    <?php include 'footer.php';?>

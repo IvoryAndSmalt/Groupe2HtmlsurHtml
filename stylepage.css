@@ -49,8 +49,11 @@ table {
 	border-spacing: 0;
 }
 
+<<<<<<< HEAD
 /* FIN DU RESET */ 
 /* !!!!!!!!!!!!!!!!!!toujours faire reset avant de commencer!!!!!!!!!!!!! */
+=======
+>>>>>>> origin/master
 /* ORIGIN AND BACKGROUND ACCUEIL */
 
 body
@@ -91,7 +94,9 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
 }
 
 
-/* HEADER */
+/***********************************************
+******************** HEADER ********************
+************************************************/
 
     ul li a{
     color: white;
@@ -113,6 +118,7 @@ header > ul {
 
 ul li a:hover{
     background: darkgrey;
+    cursor: pointer;
 }
 
 ul{
@@ -162,7 +168,9 @@ header h1{
     font-size: 250%;
 }
 
-/* FOOTER */
+/**************************************
+************** FOOTER *****************
+***************************************/
 
 
 footer{
@@ -214,9 +222,11 @@ footer{
 
 
 
-/* PAGE TYPE */
+/***********************************
+************ PAGE TYPE *************
+************************************/
 
-  .titres{
+.titres{
     display: flex;
 }
 
@@ -278,7 +288,14 @@ h2{
     border-left: 1px solid #CCCCCC;  margin: 2px;
 }
 
-/* CONTACT FORM */
+.boutonsuivant input:hover{
+    cursor: pointer;
+}
+
+
+/*****************************************
+************** CONTACT FORM **************
+******************************************/
 
 .contactformbody
 {
@@ -315,6 +332,10 @@ h2{
     text-align: center;
 }
 
+.submit:hover{
+    cursor: pointer;
+}
+
 .contact-form > form{
     margin-top: 3%;
 }
@@ -339,20 +360,3 @@ h2{
 .contact-form textarea{
     font-family: 'Libre Baskerville', sans-serif;
 }
-/* .submit{
-    page-break-before: always;
-    text-transform: uppercase;
-    background: rgba(62, 127, 231, 0.97);
-    border-color: transparent;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    max-width: 300px;
-    min-width: 180px;
-    width: 35%;
-    margin-left: 25%;
-    margin-right: 25%;
-    /*display: flex;
-    justify-content: center;*/

@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
+        des balises les plus courantes">
+    <meta property="og:title" content="Initiation au html">
+    <meta property="og:description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
+        des balises les plus courantes">
+    <meta property="og:image" content="imageog.png">
+    <meta property="og:url" content="http://localhost/Html%20sur%20Html/accueil.php">
+
     <link rel="stylesheet" href="stylepage.css">
-    <title>Initiation au html</title>
+    
 </head>
 
 <body>
@@ -14,10 +19,10 @@
         <h1>Initiation au html</h1>
 
         <ul>
-            <li><a href="projet_groupe2.php">Accueil </a></li>
+            <li><a href="accueil.php">Accueil </a></li>
             <li><a>Balises Block</a>
                 <ul>
-                    <li><a href="balisediv.php">&#8249;div&#8250;</a></li>
+         <li><a href="balisediv.php">&#8249;div&#8250;</a></li>
                     <li><a href="baliseul.php">&#8249;ul&#8250;</a></li>
                     <li><a href="baliseli.php">&#8249;li&#8250;</a></li>
                     <li><a href="balisep.php">&#8249;p&#8250;</a></li>

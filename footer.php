@@ -3,7 +3,7 @@
 
         <div class="footer1">
 
-            <a href="http://www.onlineformapro.com" target="http://www.onlineformapro.com" onclick="http://www.onlineformapro.com">
+
 
             <img src="onlineformapro.jpg"></a> 
 
