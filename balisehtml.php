@@ -28,12 +28,18 @@
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
                 <img class="capexemple" src="Capturew3cbalisehtml.PNG" alt="image provenant de w3c">
                 <br>
-                <a class="liensites" href="https://www.w3schools.com/tags/tag_meta.asp" target="https://www.w3schools.com/tags/tag_meta.asp" onclick="https://www.w3schools.com/tags/tag_meta.asp">w3schools.com/tags/tag_meta.asp</a>
-                <a class="liensites" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta" target="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta" onclick="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta">developer.mozilla.org/fr/docs/Web/HTML/Element/meta</a>
+                <a class="liensites" href="https://www.w3schools.com/html/html_elements.asp" 
+                target="https://www.w3schools.com/html/html_elements.asp" 
+                onclick="https://www.w3schools.com/html/html_elements.asp">
+                https://www.w3schools.com/html/html_elements.asp</a>
+                <a class="liensites" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/html" 
+                target="https://developer.mozilla.org/fr/docs/Web/HTML/Element/html" 
+                onclick="https://developer.mozilla.org/fr/docs/Web/HTML/Element/html">
+                developer.mozilla.org/fr/docs/Web/HTML/Element/html</a>
                 <br>
             </div>
 
-            <form class ="boutonsuivant" action="balisehead.php">
+            <form class ="boutonsuivant" action="balisemeta.php">
                 <input type="submit" value="Suivant" />
             </form>
         </div>
