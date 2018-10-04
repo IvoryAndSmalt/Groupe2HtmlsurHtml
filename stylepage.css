@@ -262,6 +262,11 @@ span{
     padding-bottom: 2%;
 }
 
+.attributciter
+{
+    color: darkblue;
+}
+
 .def p:nth-child(5){
     padding-bottom: 2%;
 }
