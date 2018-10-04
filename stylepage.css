@@ -113,6 +113,7 @@ header > ul {
 
 ul li a:hover{
     background: darkgrey;
+    cursor: pointer;
 }
 
 ul{
@@ -201,9 +202,11 @@ footer img {
       align-items: center;
   }
 
-/* PAGE TYPE */
+/***********************************
+************ PAGE TYPE *************
+************************************/
 
-  .titres{
+.titres{
     display: flex;
 }
 
@@ -265,7 +268,14 @@ h2{
     border-left: 1px solid #CCCCCC;  margin: 2px;
 }
 
-/* CONTACT FORM */
+.boutonsuivant input:hover{
+    cursor: pointer;
+}
+
+
+/*****************************************
+************** CONTACT FORM **************
+******************************************/
 
 .contactformbody
 {
@@ -300,6 +310,10 @@ h2{
     text-transform: uppercase;
     justify-content: center;
     text-align: center;
+}
+
+.submit:hover{
+    cursor: pointer;
 }
 
 .contact-form > form{
