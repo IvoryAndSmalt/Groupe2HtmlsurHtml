@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* ORIGIN AND BACKGROUND ACCUEIL */
+
 body
 {
 font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
@@ -39,22 +41,14 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
     background-size: cover;
     padding-top: 10%;
     padding-left: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 20%;
     padding-right: 10%;
 }
-.sujet h2{
-    padding-bottom: 3%;
-}
 
-.droite
-{
-    display:inline-block;
-    width: 15%;
-    color:black;
-    background-color:#F1F2F2;
-}
 
-ul li a{
+/* HEADER */
+
+    ul li a{
     color: white;
     background: #D31F44;
     display: block;
@@ -66,6 +60,10 @@ ul li a{
     justify-content: center;
     text-decoration: none;
     transition: background 0.25s;
+}
+
+header > ul {
+    background: #D31F44;
 }
 
 ul li a:hover{
@@ -83,13 +81,17 @@ ul li{
     position: relative;
 }
 
+ul > li {
+    margin-right: 5%;
+}
+
 ul li:hover ul li{
     display:block;
     color: white;
-    background: grey; 
     top: 0px;
     transition: background 0.3s;
 }
+
 ul li ul li{
     display: none;
 }
@@ -101,7 +103,7 @@ ul li ul li a{
 ul li ul{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: absolute ;
     width: 100%;
 }
 
@@ -115,8 +117,7 @@ header h1{
     font-size: 250%;
 }
 
-
-  
+/* FOOTER */
 
 .footer{
     font-family:'Julius Sans One', sans-serif;
@@ -127,7 +128,6 @@ header h1{
     background-position: bottom;
     align-items: center;
     text-transform: uppercase;
-    text
 }
 
 .donnees  {
@@ -146,12 +146,153 @@ header h1{
 }
 
 
-  footer img {
+footer img {
       display: block;
       position: relative;
       left: 80%;
-      top: 50% ;
+      top: 50%;
       align-items: center;
-     
-       
   }
+
+/* PAGE TYPE */
+
+  .titres{
+    display: flex;
+}
+
+span{
+    font-size: 1em;
+}
+
+h2{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenu
+{
+    display:inline-block;
+    width: 85%;
+    min-height: 800px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
+
+.def{
+    padding-top: 10%;
+}
+
+#txtavimg{
+    padding-top: 3%;
+}
+
+.def img{
+    margin-top: 2%;
+}
+
+.liensites{
+    display: block;
+    margin-top: 3%;
+}
+
+.boutonsuivant{
+    text-align: center;
+}
+
+.boutonsuivant input{
+    font-size: 80%; 
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    background-color: #D31F44;
+    color: white;
+    padding: 10px 30px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;  margin: 2px;
+}
+
+/* CONTACT FORM */
+
+.contactformbody
+{
+    display: block;
+    min-height: 800px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.contacttitle {
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+.contacttitle h3{
+    padding-top: 1%;
+}
+
+.submit{
+    display: block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 1.1em;
+    color: white;
+    background:  #D31F44;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form > form{
+    margin-top: 3%;
+}
+.control-form{
+    font-family: 'Libre Baskerville', sans-serif;
+    text-transform: lowercase;
+    max-width: 450px        ;
+    min-width: 180px;
+    width: 60%;
+    background-color:darkgrey;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    page-break-after: always;
+}
+
+.contact-form textarea{
+    font-family: 'Libre Baskerville', sans-serif;
+}
+/* .submit{
+    page-break-before: always;
+    text-transform: uppercase;
+    background: rgba(62, 127, 231, 0.97);
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    max-width: 300px;
+    min-width: 180px;
+    width: 35%;
+    margin-left: 25%;
+    margin-right: 25%;
+    /*display: flex;
+    justify-content: center;*/

@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="" href="">
+    <title>Balises Particulières : html</title>
     <link rel="stylesheet" href="stylepage.css">
-    <title>Initiation au html</title>
 </head>
+
+<?php echo  "mon texte"?>
 
 <body>
     <header>
-        <h1>INITIATION AU HTML</h1>
+        <h1>Initiation au html</h1>
 
         <ul>
             <li><a href="projet_groupe2.html">Accueil </a></li>
@@ -55,15 +58,30 @@
             <!-- block gris foncé -->
         </div>
 
-        <div class="sujet">
-            <h2>HTML SUR HTML</h2>
-            <br>
-            <p>
-                Utilisation des notions vues pour créer un mini site cours de html.
-                Aucun CSS utilisé, mise en forme brute html.
-                Chaque étudiant choisit au moins 4 balises html, doit la présenter et mettre en forme sa présentation.
-                Intégration d’un menu commun (mode list UL/LI).
-            </p>
+        <div class="contenu">
+            <div class="titres">
+                <h2>Balises Particulières : <span>balise &#8249;html&#8250;</span></h2>
+            </div>
+            <div class="def">
+                <p>nom de la balise &#003C;html&#003E;</p>
+                <p>Definition signification de l'abréviation</p>
+                <p>type de balise (block ou inlines ou particulières)</p>
+                <p>type de balise (par paire ou orphelines)</p>
+                <p>où et quand dans le code (body...)</p>
+                <p>sa fonction</p>
+                <p>Décliner les attributs (nécessaires et optionels")</p>
+                <br>
+                <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
+                <img class="capexemple" src="capturew3cmeta.PNG" alt="image provenant de w3c">
+                <br>
+                <a class="liensites" href="http://www.monsite.fr" target="http://www.monsite.fr" onclick="www.monsite.fr">mon site</a>
+                <br>
+            </div>
+
+            <form class ="boutonsuivant" action="balisehtml.html">
+                <input type="submit" value="Suivant" />
+            </form>
+
         </div>
     </div>
 
@@ -75,7 +93,7 @@
                 <div class="text1">
                     <p> Promo Access Code School de Belfort 2018</p>
                 </div>
-<br>
+                <br>
                 <div class="text2">
                     <p> Groupe html 2 : Alexandra Moullet, Laura Vangrevenynghe et Lucas Van Den Berg</p>
                 </div>
@@ -86,8 +104,7 @@
         </div>
 
     </footer>
+
 </body>
-
-
 
 </html>

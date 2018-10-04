@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
+font-size:1.2em;
+}
+
+h1 h2 
+{
+font-family: 'Julius Sans One', sans-serif; /* police titre */
+}
+
+
+#style_page
+{
+    display:flex;
+    margin:auto;
+}
+.gauche
+{
+    display:inline-block;
+    width: 15%;
+    background-color: rgb(202, 20, 68); 
+}
+
+.sujet
+{
+    display:inline-block;
+    width: 85%;
+    min-height: 800px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+}
+.sujet h2{
+    padding-bottom: 3%;
+}
+
+.droite
+{
+    display:inline-block;
+    width: 15%;
+    color:black;
+    background-color:#F1F2F2;
+}
+
+ul li a{
+    color: white;
+    background:  rgb(202, 20, 68);
+    display: block;
+    height: 58px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.25s;
+}
+
+ul li a:hover{
+    background: darkgrey;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+}
+
+ul li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+ul li:hover ul li{
+    display:block;
+    color: white;
+    background: grey; 
+    top: 0px;
+    transition: background 0.3s;
+}
+ul li ul li{
+    display: none;
+}
+
+ul li ul li a{
+    height: 46px;
+}
+
+ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+header h1{
+    display: flex;
+    background: black;
+    height: 130px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+}
+
+
+  
+
+.footer{
+    
+    display:flex;
+    height: 134px;
+    width: 100%;
+}
+
+.footerright{
+
+    background-color: black;
+    width: 85%;
+    display: inline-block;
+    font-family:'Julius Sans One', sans-serif;
+    font-weight: bold;
+    background-position: bottom;
+    align-items: center;
+    text-transform: uppercase;
+    height: 139px;
+    position: absolute;
+    
+     
+}
+
+.donnees  {
+   display:block;
+   width:60%; 
+   color:whitesmoke;
+   text-align: left;
+   margin-left: 15%;
+   align-items: top; 
+}
+
+.logo {
+   display:block;
+   position:absolute;
+   right: 20%;
+   align-items: baseline;
+}
+
+
+.onlineformapro {
+    
+
+   
+    
+}
+
+.footerleft{
+    background-color:  rgb(202, 20, 68);
+    width:15%;
+    display:inline-block;
+    position:left;
+    height:  139%;
+
+}
