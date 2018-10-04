@@ -2,10 +2,13 @@
 <html lang="fr">
 
 <head>
+    <title>Initiation au html</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
+        des balises les plus courantes">
     <link rel="stylesheet" href="stylepage.css">
-    <title>Initiation au html</title>
+    
 </head>
 
 <body>
@@ -17,7 +20,7 @@
             <li><a href="projet_groupe2.php">Accueil </a></li>
             <li><a>Balises Block</a>
                 <ul>
-                    <li><a href="balisediv.php">&#8249;div&#8250;</a></li>
+         <li><a href="balisediv.php">&#8249;div&#8250;</a></li>
                     <li><a href="baliseul.php">&#8249;ul&#8250;</a></li>
                     <li><a href="baliseli.php">&#8249;li&#8250;</a></li>
                     <li><a href="balisep.php">&#8249;p&#8250;</a></li>

@@ -11,7 +11,7 @@
                 <h2>Balises Particulières : <span>balise &#8249;html&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#003C;html&#003E;</p>
+                <p>nom de la balise &#8249;html&#8250;</p>
                 <p>Definition signification de l'abréviation</p>
                 <p>type de balise (block ou inlines ou particulières)</p>
                 <p>type de balise (par paire ou orphelines)</p>
