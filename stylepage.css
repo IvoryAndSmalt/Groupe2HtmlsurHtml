@@ -340,20 +340,3 @@ h2{
 .contact-form textarea{
     font-family: 'Libre Baskerville', sans-serif;
 }
-/* .submit{
-    page-break-before: always;
-    text-transform: uppercase;
-    background: rgba(62, 127, 231, 0.97);
-    border-color: transparent;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    max-width: 300px;
-    min-width: 180px;
-    width: 35%;
-    margin-left: 25%;
-    margin-right: 25%;
-    /*display: flex;
-    justify-content: center;*/
