@@ -15,7 +15,7 @@
 
 <body>
 
-<header>
+    <header>
         <h1>Initiation au html</h1>
 
         <ul>
