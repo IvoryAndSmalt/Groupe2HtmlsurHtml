@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylepage.css">
-    <title>Initiation au html</title>
-</head>
-
-<body>
-    
+   
 <?php include ('header.php') ; ?>
 
     <div id="style_page">
@@ -29,27 +19,4 @@
         </div>
     </div>
 
-    <footer>
-        <div class="footer">
-
-            <div class="donnees">
-
-                <div class="text1">
-                    <p> Promo Access Code School de Belfort 2018</p>
-                </div>
-<br>
-                <div class="text2">
-                    <p> Groupe html 2 : Alexandra Moullet, Laura Vangrevenynghe et Lucas Van Den Berg</p>
-                </div>
-            </div>
-
-            <div class="logo">
-                <img src="mini_ACS.jpg" alt="Logo de l'Access code school"></div>
-        </div>
-
-    </footer>
-</body>
-
-
-
-</html>
+    <?php include ('footer.php') ; ?>
