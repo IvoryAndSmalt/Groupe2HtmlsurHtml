@@ -2,7 +2,10 @@
     <footer>
 
         <div class="footer1">
-            <img src="onlineformapro.jpg"></a> 
+        <a href="http://www.onlineformapro.com" 
+        target="http://www.onlineformapro.com" 
+        onclick="http://www.onlineformapro.com">
+        <img src="onlineformapro.jpg"></a> 
         </div>
 
         <div class="footer2">
