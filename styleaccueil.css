@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+
+
+body
+{
+font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
+font-size:1.2em;
+}
+
+h1 h2 
+{
+font-family: 'Julius Sans One', sans-serif; /* police titre */
+}
+
+
+#style_page
+{
+    display:flex;
+    margin:auto;
+}
+.gauche
+{
+    display:inline-block;
+    width: 15%;
+    color:#413C3C;
+    background-color: #413C3C;
+}
+
+.sujet
+{
+    display:inline-block;
+    width: 60%;
+    background-image: url("background.jpg")
+}
+
+.droite
+{
+    display:inline-block;
+    width: 15%;
+    color:#F1F2F2;
+    background-color:#F1F2F2;
+}
