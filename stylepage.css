@@ -73,6 +73,7 @@ h1 h2 {
     margin:auto;
 }
 .gauche {
+    min-width: 30px;
     display:inline-block;
     width: 15%;
     background-color:rgb(202, 20, 68); 
@@ -129,9 +130,14 @@ ul li{
     position: relative;
 }
 
-ul > li {
-    margin-right: 5%;
+.navgen > li:first-child{
+    min-width: 80px;
+    width: 58.5%;
 }
+
+/* ul > li {
+    margin-right: 5%;
+} */
 
 ul li:hover ul li{
     display:block;
@@ -221,10 +227,11 @@ footer{
 }
 
 span{
-    font-size: 1em;
+    font-weight: bold;
 }
 
-h2{
+.titres h2{
+    font-size: 1.6em;
     display: block;
     padding: 0px;
     margin: 0px;
@@ -244,7 +251,23 @@ h2{
 }
 
 .def{
-    padding-top: 10%;
+    padding-top: 6%;
+}
+
+.def p:first-child{
+    font-family: Courier;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+}
+
+.def p:nth-child(5){
+    padding-bottom: 2%;
+}
+
+.def p{
+    line-height: 1.4;
 }
 
 #txtavimg{
@@ -262,6 +285,7 @@ h2{
 
 .boutonsuivant{
     text-align: center;
+    margin-top: 5%;
 }
 
 .boutonsuivant input{
