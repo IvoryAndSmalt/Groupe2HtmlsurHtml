@@ -27,7 +27,7 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
 {
     display:inline-block;
     width: 15%;
-    background-color:#D31F44; 
+    background-color: rgb(202, 20, 68); 
 }
 
 .sujet
@@ -56,7 +56,7 @@ font-family: 'Julius Sans One', sans-serif; /* police titre */
 
 ul li a{
     color: white;
-    background: #D31F44;
+    background:  rgb(202, 20, 68);
     display: block;
     height: 58px;
     font-family: 'Julius Sans One', sans-serif;
@@ -119,15 +119,26 @@ header h1{
   
 
 .footer{
+    
+    display:flex;
+    height: 134px;
+    width: 100%;
+}
+
+.footerright{
+
+    background-color: black;
+    width: 85%;
+    display: inline-block;
     font-family:'Julius Sans One', sans-serif;
     font-weight: bold;
-    display:flex;
-    background-color: black;
-    height: 134px;
     background-position: bottom;
     align-items: center;
     text-transform: uppercase;
-    text
+    height: 139px;
+    position: absolute;
+    
+     
 }
 
 .donnees  {
@@ -143,19 +154,22 @@ header h1{
    display:block;
    position:absolute;
    right: 20%;
+   align-items: baseline;
 }
 
 
-  footer img {
-      display: block;
-      position: relative;
-      left: 80%;
-      top: 50% ;
-      align-items: center;
-     
-       
-  }
-
 .onlineformapro {
-    margin-left: -5.5%;
+    
+
+   
+    
+}
+
+.footerleft{
+    background-color:  rgb(202, 20, 68);
+    width:15%;
+    display:inline-block;
+    position:left;
+    height:  139%;
+
 }
