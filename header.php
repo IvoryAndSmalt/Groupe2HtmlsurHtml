@@ -11,7 +11,7 @@
     <meta property="og:description" content="Tutoriels sur l'utilisation des balises HTML, les types et les spécificités 
         des balises les plus courantes">
     <meta property="og:image" content="imageog.png">
-    <meta property="og:url" content="http://localhost/Html%20sur%20Html/projet_groupe2.php">
+    <meta property="og:url" content="http://localhost/Html%20sur%20Html/accueil.php">
 
     <link rel="stylesheet" href="stylepage.css">
     
@@ -23,7 +23,7 @@
         <h1>Initiation au html</h1>
 
         <ul>
-            <li><a href="projet_groupe2.php">Accueil </a></li>
+            <li><a href="accueil.php">Accueil </a></li>
             <li><a>Balises Block</a>
                 <ul>
          <li><a href="balisediv.php">&#8249;div&#8250;</a></li>
