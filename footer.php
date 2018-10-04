@@ -1,20 +1,29 @@
 
 <footer>
-        <div class="footer">
 
-            <div class="donnees">
+        <div class="footer1">
 
-                <div class="text1">
-                    <p> Promo Access Code School de Belfort 2018</p>
-                </div>
+
+
+            <img src="onlineformapro.jpg"></a> 
+
+        </div>
+
+        <div class="footer2">
+                
+                    <p> Promo Access Code School de Belfort 2018
                 <br>
-                <div class="text2">
-                    <p> Groupe html 2 : Alexandra Moullet, Laura Vangrevenynghe et Lucas Van Den Berg</p>
-                </div>
-            </div>
+                     Groupe html 2 : Alexandra Moullet, Laura Vangrevenynghe et Lucas Van Den Berg</p>
+              
 
-            <div class="logo">
-                <img src="mini_ACS.jpg" alt="Logo de l'Access code school"></div>
+        </div>
+
+
+        <div class="footer3">
+
+            <a href="http://www.accesscodeschool.fr/ target="http://www.accesscodeschool.fr" onclick="http://www.accesscodeschool.fr/">
+
+            <img src="mini_ACS.jpg" alt="Logo de l'Access code school"> </a>
         </div>
 
     </footer>
