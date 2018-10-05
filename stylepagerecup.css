@@ -1,0 +1,376 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIN DU RESET */ 
+/* !!!!!!!!!!!!!!!!!!toujours faire reset avant de commencer!!!!!!!!!!!!! */
+
+
+
+/***********************************
+****************ACCUEIL ************
+************************************/
+
+body{
+    font-family:'Libre Baskerville', sans-serif; /* police du corps de texte */
+    font-size:1.2em;
+}
+
+h1 h2 {
+    font-family: 'Julius Sans One', sans-serif; /* police titre */
+}
+
+
+#style_page{
+    display:flex;
+    margin:auto;
+}
+.gauche {
+    min-width: 30px;
+    display:inline-block;
+    width: 15%;
+    background-color:rgb(202, 20, 68); 
+}
+
+.sujet {
+    display:inline-block;
+    width: 85%;
+    min-height: 600px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
+
+
+/***********************************************
+******************** HEADER ********************
+************************************************/
+
+ul li a{
+    color: white;
+    background: rgb(202, 20, 68);
+    display: block;
+    height: 58px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.25s;
+}
+
+header > ul {
+    background: rgb(202, 20, 68);
+}
+
+ul li a:hover{
+    background: darkgrey;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+}
+
+ul li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.navgen > li:first-child{
+    min-width: 80px;
+    width: 58.5%;
+}
+
+/* ul > li {
+    margin-right: 5%;
+} */
+
+ul li:hover ul li{
+    display:block;
+    color: white;
+    top: 0px;
+    transition: background 0.3s;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li ul li a{
+    height: 46px;
+}
+
+ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute ;
+    width: 100%;
+}
+
+header h1{
+    display: flex;
+    background: black;
+    height: 130px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+/**************************************
+************** FOOTER *****************
+***************************************/
+
+
+footer{
+    display:flex;
+    height: 134px;
+    background-color: black;
+   
+}
+
+.footer1{
+    display:inline-block;
+    width: 12.75%;
+    background-color:rgb(202, 20, 68); 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer1 img{
+   margin-left: 5%;
+}
+.footer2  {
+    font-family:'Julius Sans One', sans-serif;
+    font-weight: bold;
+   background-color: black;
+   display:flex;
+   width:60%; 
+   color:whitesmoke;
+   text-align: left;
+   margin-left: 5%;
+   justify-content: center;
+   align-items: center;
+   line-height: 1.8;
+    
+}
+
+.footer3 {
+   display:flex;
+   background-color:black;
+   justify-content: center;
+   align-items: center;
+}
+
+/***********************************
+************ PAGE TYPE *************
+************************************/
+
+.titres{
+    display: flex;
+}
+
+span{
+    font-weight: bold;
+}
+
+.titres h2{
+    font-size: 1.6em;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenu
+{
+    display:inline-block;
+    width: 85%;
+    min-height: 800px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
+
+.def{
+    padding-top: 6%;
+}
+
+.def p:first-child{
+    font-family: Courier;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+}
+
+.def p:nth-child(5){
+    padding-bottom: 2%;
+}
+
+.def p{
+    line-height: 1.4;
+}
+
+#txtavimg{
+    padding-top: 3%;
+}
+
+.def img{
+    margin-top: 2%;
+}
+
+.liensites{
+    display: block;
+    margin-top: 3%;
+}
+
+.boutonsuivant{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.boutonsuivant input{
+    font-size: 80%; 
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    background-color: rgb(202, 20, 68);
+    color: white;
+    padding: 10px 30px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;  margin: 2px;
+}
+
+.boutonsuivant input:hover{
+    cursor: pointer;
+}
+
+
+/*****************************************
+************** CONTACT FORM **************
+******************************************/
+
+.contactformbody
+{
+    display: block;
+    min-height: 800px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.contacttitle {
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+.contacttitle h3{
+    padding-top: 1%;
+}
+
+.submit{
+    display: block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 1.1em;
+    color: white;
+    background:  #D31F44;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.contact-form > form{
+    margin-top: 3%;
+}
+.control-form{
+    font-family: 'Libre Baskerville', sans-serif;
+    text-transform: lowercase;
+    max-width: 450px        ;
+    min-width: 180px;
+    width: 60%;
+    background-color:darkgrey;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    page-break-after: always;
+}
+
+.contact-form textarea{
+    font-family: 'Libre Baskerville', sans-serif;
+}
