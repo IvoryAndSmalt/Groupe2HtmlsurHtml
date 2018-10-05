@@ -36,7 +36,7 @@
                 <br>
             </div>
 
-            <form class ="boutonsuivant" action="balisehtml.html">
+            <form class ="boutonsuivant" action="baliseul.php">
                 <input type="submit" value="Suivant" />
             </form>
 

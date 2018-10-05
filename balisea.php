@@ -1,6 +1,8 @@
-<?php include 'introheader.php';?>
-<title>Page type</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise a';
+    include 'header.php';
+?>
+
 
     <div id="style_page">
 
@@ -31,11 +33,11 @@
                 <br/>
             </div>
 
-            <form class ="boutonsuivant" action="balisehtml.html">
+            <form class ="boutonsuivant" action="baliseimg.php">
                 <input type="submit" value="Suivant" />
             </form>
 
-        </div>
+        </div>  
     </div>
 
     <?php include 'footer.php';?>

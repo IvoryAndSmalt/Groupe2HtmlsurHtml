@@ -41,7 +41,7 @@
                 <br>
             </div>
 
-            <form class ="boutonsuivant" action="balisea.php">
+            <form class ="boutonsuivant" action="balisevideo.php">
                 <input type="submit" value="Suivant" />
             </form>
         </div>
