@@ -29,7 +29,7 @@
                     la balise video:
                 </p>
                 <br>
-                    <img src="suppbalisevideo.PNG" alt="chrome: 4.0   edge : 9.0   firefox : 3.5    safari : 4.0    opera : 10.5">
+                    <img src="suppbalisevideo.png" alt="chrome: 4.0   edge : 9.0   firefox : 3.5    safari : 4.0    opera : 10.5">
                 <br>
                     <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
                     <img src="videotag.png" alt="image provenant de w3c montrant un exemple de code html avec la balise video">

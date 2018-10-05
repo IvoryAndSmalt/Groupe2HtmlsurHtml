@@ -27,7 +27,7 @@
                 </p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="Capturew3cbalisehtml.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="Capturew3cbalisehtml.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/html/html_elements.asp" 
                 target="https://www.w3schools.com/html/html_elements.asp" 

@@ -27,7 +27,7 @@
                 <p>Pour pouvoir la cibler en CSS (Cascading Style Sheets ou feuille de style), on lui attribut un id (si l’élément est unique) ou un attribut class. </p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="div.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="div.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/tags/tag_div.asp" target="https://www.w3schools.com/tags/tag_div.asp" onclick="www.monsite.fr">https://www.w3schools.com/tags/tag_div.asp</a>
                 <br>

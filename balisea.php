@@ -24,7 +24,7 @@
                 <p>On l'associe avec  l'attribut id et href pour récupérer une balise précise et créer un lien, target pour « forcer » l’ouverture d’un lien dans une nouvelle fenêtre ou title pour afficher une infobulle au survol du lien.</p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="a.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="a.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/tags/tag_a.asp" target="https://www.w3schools.com/tags/tag_a.asp" onclick="www.monsite.fr">https://www.w3schools.com/tags/tag_a.asp</a>               
                 <br>

@@ -21,7 +21,7 @@
                 <p>Cette balise permet de structurer les informations sous forme de liste </p>
                 <br/>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="li.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="li.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/tags/tag_li.asp" target="https://www.w3schools.com/tags/tag_li.asp" onclick="www.monsite.fr">https://www.w3schools.com/tags/tag_li.asp</a><br/>
                 <a class="liensites" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/li" target="https://developer.mozilla.org/fr/docs/Web/HTML/Element/li" onclick="www.monsite.fr">https://developer.mozilla.org/fr/docs/Web/HTML/Element/li</a>

@@ -18,7 +18,7 @@
         </div>
 
         <div class="footer3">
-            <a href="http://www.accesscodeschool.fr/ target="http://www.accesscodeschool.fr" 
+            <a href="http://www.accesscodeschool.fr/" target="http://www.accesscodeschool.fr" 
             onclick="http://www.accesscodeschool.fr/">
             <img src="mini_ACS.jpg" alt="Logo de l'Access code school"></a>
         </div>
