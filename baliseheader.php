@@ -14,7 +14,7 @@
                 <h2>Balises Block: <span>balise &#8249;header&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;header&#8250;</p>
+                <p>Nom de la balise : &#8249;header&#8250;</p>
                 <p>La balise header est une balise block.</p>
                 <p>C'est une balise paire.</p>
                 <p>Elle est située dans le body du document html.</p>
