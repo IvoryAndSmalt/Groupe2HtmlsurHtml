@@ -44,7 +44,7 @@
                     <li><a href="balisehtml.php">&#8249;html&#8250;</a></li>
                     <li><a href="balisemeta.php">&#8249;meta&#8250;</a></li>
                     <li><a href="balisehead.php">&#8249;head&#8250;</a></li>
-                    <li><a href="balisea.php">&#8249;body&#8250;</a></li>
+                    <li><a href="balisebody.php">&#8249;body&#8250;</a></li>
                 </ul>
             </li>
             <li><a>Contact</a>
