@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise html</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise html';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
@@ -13,7 +14,7 @@
                 <h2>Balises Particulières : <span>balise &#8249;html&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;html&#8250;</p>
+                <p>&#8249;html&#8250;</p>
                 <p>HTML signifie HyperText Markup Language</p>
                 <p>Il s'agit d'une balise particulière, pas tout à fait un block ou inline.</p>
                 <p>Elle est composée d'une balise entrante et sortante</p>
@@ -21,7 +22,7 @@
                 <p>La balise ‹html› est la racine d'un document html. les autres balises seront donc descendantes de celle-ci. 
                     Elle sert à délimiter le document html.
                 </p>
-                <p>Aucun attribut n'est nécessaire à cette balise. Elle supporte toutefois tous les attributs universels on lui 
+                <p>Aucun attribut n'est nécessaire à cette balise. Elle supporte toutefois tous les attributs universels. On lui 
                     attribue habituellement l'attribut "lang". exemple : ‹html lang="fr"› 
                 </p>
                 <br>
