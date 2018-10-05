@@ -1,6 +1,9 @@
-<?php include 'introheader.php';?>
-<title>Page type</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise div';
+    include 'header.php';
+?>
+
+
 
     <div id="style_page">
 

@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise button</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise button';
+    include 'header.php';
+?>
 
     <div id="style_page">
 

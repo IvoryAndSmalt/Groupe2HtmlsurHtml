@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise header</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise textarea';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
@@ -10,7 +11,7 @@
 
         <div class="contenu">
             <div class="titres">
-                <h2>Balises Block: <span>balise &#8249;textarea&#8250;</span></h2>
+                <h2>Balises Inline: <span>balise &#8249;textarea&#8250;</span></h2>
             </div>
             <div class="def">
             <p>L'élement HTML &#8249;textarea&#8250; signifie en français la zone de texte.</p>
@@ -44,8 +45,8 @@
                 <br>
             </div>
 
-            <form class ="boutonsuivant" action="balisea.php">
-                <input type="submit" value="Suivant" />
+            <form class ="boutonsuivant" action="balisehtml.html">
+                <input type="submit" value="Suivant">
             </form>
         </div>
     </div>
