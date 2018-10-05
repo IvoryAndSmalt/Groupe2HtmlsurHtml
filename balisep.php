@@ -22,7 +22,7 @@
                 <p>Cette balise permet d’écrire le texte à l’intérieur et de le délimiter. Pour décaler le texte on utilisera ensuite le CSS.</p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="p.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="p.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/tags/tag_p.asp" target="https://www.w3schools.com/tags/tag_p.asp" onclick="www.monsite.fr">https://www.w3schools.com/tags/tag_p.asp</a>               
                 <br>

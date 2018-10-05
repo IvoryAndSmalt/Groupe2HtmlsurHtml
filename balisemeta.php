@@ -30,7 +30,7 @@
                 </p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="capturew3cmeta.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="capturew3cmeta.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/tags/tag_meta.asp" target="https://www.w3schools.com/tags/tag_meta.asp" onclick="https://www.w3schools.com/tags/tag_meta.asp">w3schools.com/tags/tag_meta.asp</a>
                 <a class="liensites" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta" target="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta" onclick="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta">developer.mozilla.org/fr/docs/Web/HTML/Element/meta</a>

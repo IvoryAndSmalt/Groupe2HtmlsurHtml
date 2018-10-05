@@ -22,7 +22,7 @@
                 <p>On l'associe avec la balise <span class="attributciter">&#8249;li&#8250;&#8249;/li&#8250;</span></p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
-                <img class="capexemple" src="ul.PNG" alt="image provenant de w3c">
+                <img class="capexemple" src="ul.png" alt="image provenant de w3c">
                 <br>
                 <a class="liensites" href="https://www.w3schools.com/tags/tag_ul.asp" target="https://www.w3schools.com/tags/tag_ul.asp" onclick="www.monsite.fr">https://www.w3schools.com/tags/tag_ul.asp</a>
                 <br>
