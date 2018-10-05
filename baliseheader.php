@@ -17,8 +17,9 @@
                 <p>La balise header est une balise block.</p>
                 <p>C'est une balise paire.</p>
                 <p>Elle est située dans le body du document html.</p>
-                <p>La balise &#8249;header&#8250; est utilisée pour décrire l'en tête d'un document ou d'une section et est censée contenir les titres, le logo, 
-                et des informations importantes de la page. </p>
+                <p>La balise &#8249;header&#8250; est utilisée pour décrire l'en tête d'un document ou d'une section et est censée contenir les titres,
+                (&#8249;h1&#8250; à &#8249;h6&#8250;), 
+                le logo, les informations auteurs, la table des matières et d'autres informations importantes de la page. </p>
                 <p>
                 </p>
                 <br>
