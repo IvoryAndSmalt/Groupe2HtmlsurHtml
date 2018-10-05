@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise footer</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise footer';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
@@ -13,7 +14,7 @@
                 <h2>Balises Block: <span>balise &#8249;footer&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;footer&#8250;</p>
+                <p>Nom de la balise &#8249;footer&#8250;</p>
                 <p>La balise footer est une balise block.</p>
                 <p>Elle correspond au pied de page d'un document ou d'une section.</p>
                 <p>Elle est située dans le body du document html.</p>
@@ -40,7 +41,7 @@
                 <br>
             </div>
 
-            <form class ="boutonsuivant" action="balisea.php">
+            <form class ="boutonsuivant" action="balisevideo.php">
                 <input type="submit" value="Suivant" />
             </form>
         </div>

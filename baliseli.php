@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Page type</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise li';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
@@ -13,7 +14,7 @@
                 <h2>Balises Particulières : <span>balise &#8249;li&#8250;<span>balise &#8249;/li&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>&#8249;li&#8250;<span>balise &#8249;/li&#8250;</p>
+                <p><span> &#8249;li&#8250;&#8249;/li&#8250;<span></p>
                 <p>C'est une balise de type block, elle entoure un bloc de texte et provoque obligatoirement un retour à la ligne.</p>
                 <p>Elle est dite de type paire.</p>
                 <p>On l'insert dans les balises <span class="attributciter">&#8249;nav/nav&#8250;</span>, <span class="attributciter">&#8249;ul/ul&#8250;</span> ou <span class="attributciter">&#8249;ol/ol&#8250;</span></p>

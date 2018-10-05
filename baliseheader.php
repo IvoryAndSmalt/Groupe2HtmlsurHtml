@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise header</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise header';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
@@ -13,12 +14,13 @@
                 <h2>Balises Block: <span>balise &#8249;header&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;header&#8250;</p>
+                <p>Nom de la balise : &#8249;header&#8250;</p>
                 <p>La balise header est une balise block.</p>
                 <p>C'est une balise paire.</p>
                 <p>Elle est située dans le body du document html.</p>
-                <p>La balise &#8249;header&#8250; est utilisée pour décrire l'en tête d'un document ou d'une section et est censée contenir les titres, le logo, 
-                et des informations importantes de la page. </p>
+                <p>La balise &#8249;header&#8250; est utilisée pour décrire l'en tête d'un document ou d'une section et est censée contenir les titres,
+                (&#8249;h1&#8250; à &#8249;h6&#8250;), 
+                le logo, les informations auteurs, la table des matières et d'autres informations importantes de la page. </p>
                 <p>
                 </p>
                 <br>
@@ -38,7 +40,7 @@
                 <br>
             </div>
 
-            <form class ="boutonsuivant" action="balisea.php">
+            <form class ="boutonsuivant" action="balisefooter.php">
                 <input type="submit" value="Suivant" />
             </form>
         </div>

@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise body</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise body';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
@@ -13,7 +14,7 @@
                 <h2>Balises Block: <span>balise &#8249;body&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;body&#8250;</p>
+                <p>Nom de la balise &#8249;body&#8250;</p>
                 <p>La balise body est une balise block.</p>
                 <p>Elle définit le corps du document..</p>
                 <p>Elle est située dans le document html.</p>

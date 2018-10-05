@@ -1,6 +1,7 @@
-<?php include 'introheader.php';?>
-<title>Introduction au html : balise img</title>
-<?php include 'header.php';?>
+<?php 
+    $pagetitle= 'Introduction au html : balise img';
+    include 'header.php';
+?>
 
     <div id="style_page">
 
