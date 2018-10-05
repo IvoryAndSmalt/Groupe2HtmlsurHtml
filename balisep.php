@@ -15,7 +15,7 @@
             <div class="def">
                 <p>&#8249;p&#8250;&#8249;/p&#8250;</p>
                 <p>p est l'abréviation pour paragraphe.</p>
-                <p>C'est une balise de type block, elle entoure un bloc de texte et provoque obligatoirement un retour à la ligne.Pour sauter une ligne on utilisera une balise orpheline &#8249;br/&#8250; qu’on ajoutera après la balise fermée &#8249;/p&#8250;</p>
+                <p>C'est une balise de type block, elle entoure un bloc de texte et provoque obligatoirement un retour à la ligne. Pour sauter une ligne on utilisera une balise orpheline <span class="attributciter">&#8249;br/&#8250;</span> qu’on ajoutera après la balise fermée <span class="attributciter">&#8249;/p&#8250;</span>.</p>
                 <p>Elle est dite de type paire.</p>
                 <p>On l'insert dans les balises paticulières ou de type block et à chaque traitement de texte.</p>
                 <p>Cette balise permet d’écrire le texte à l’intérieur et de le délimiter. Pour décaler le texte on utilisera ensuite le CSS.</p>

@@ -17,7 +17,7 @@
                 <p>C'est une balise de type block, elle entoure un bloc de texte et provoque obligatoirement un retour à la ligne.</p>
                 <p>Elle est dite de type paire.</p>
                 <p>On l'insert dans les balises paticulières ou de type block.</p>
-                <p>La balise ul délimite une liste sans notion d'ordre sous forme de puce. Il est possible de modifier les puces avec le CSS (Cascading Style Sheets), ainsi que l'indentation de la liste</p>
+                <p>La balise ul délimite une liste sans notion d'ordre sous forme de puce. Il est possible de modifier les puces avec le CSS (Cascading Style Sheets ou feuille de style), ainsi que l'indentation de la liste.</p>
                 <p>On l'associe avec la balise <span class="attributciter">&#8249;li&#8250;&#8249;/li&#8250;</span></p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>

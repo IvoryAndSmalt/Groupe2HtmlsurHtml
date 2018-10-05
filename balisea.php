@@ -19,7 +19,7 @@
                 <p>La balise a est dite de type paire.</p>
                 <p>On l'insert dans les balises paticulières ou de type block.</p>
                 <p>Cette balise permet de faire un lien entre les pages ou vers un autre site. Il existe 2 types de lien : le lien absolu et le lien relatif.</p>
-                <p>attribut</p>
+                <p>On l'associe avec  l'attribut id et href pour récupérer une balise précise et créer un lien, target pour « forcer » l’ouverture d’un lien dans une nouvelle fenêtre ou title pour afficher une infobulle au survol du lien.</p>
                 <br>
                 <p id="txtavimg">Voici un exemple de la balise utilisée dans un script html :</p>
                 <img class="capexemple" src="a.PNG" alt="image provenant de w3c">
