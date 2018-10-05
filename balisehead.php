@@ -14,8 +14,8 @@
                 <h2>Balises Particulières : <span>balise &#8249;head&#8250;</span></h2>
             </div>
             <div class="def">
-                <p>nom de la balise &#8249;head&#8250;</p>
-                <p>La balise headest une balise partculières.</p>
+                <p>Nom de la balise &#8249;head&#8250;</p>
+                <p>La balise head est une balise partculière.</p>
                 <p>C'est une balise paire.</p>
                 <p>Elle est située avant le body du document html.</p>
                 <p>La balise &#8249;head&#8250; est un élément qui structure le document html, 
