@@ -16,7 +16,7 @@
             <br>
             <h2><span class="attributciter">Les balises orphelines &#8249;/&#8250; </span></h2>
             <br>
-            <p> Elles servent à délimiter un début et une fin. Ce sont des balises qui s’ouvrent et se ferment.</p>
+            <p>Elles servent à insérer un élément à un endroit précis. Il n’y a pas besoin de délimiter un début et une fin.</p>
             <br/>
             <br/>
             <br/>
