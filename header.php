@@ -13,7 +13,8 @@
         des balises les plus courantes">
     <meta property="og:image" content="imageog.png">
     <meta property="og:url" content="http://localhost/Html%20sur%20Html/accueil.php">
-
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville" rel="stylesheet">  
+    <!-- <style>@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);</style> -->
     <link rel="stylesheet" href="stylepage.css">
     
 </head>
